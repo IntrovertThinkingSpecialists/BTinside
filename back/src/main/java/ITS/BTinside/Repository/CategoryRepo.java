@@ -1,9 +1,9 @@
 package ITS.BTinside.Repository;
 
-import ITS.BTinside.Entity.User;
+import ITS.BTinside.Entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepo extends JpaRepository<User, String> {
+public interface CategoryRepo extends JpaRepository<Category, Long> {
 }
