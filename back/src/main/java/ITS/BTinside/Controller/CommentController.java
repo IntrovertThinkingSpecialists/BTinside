@@ -32,6 +32,7 @@ public class CommentController {
     public Comment createComment(@RequestBody Comment comment) {
         return commentService.save(comment);
     }
+    //// 
 
     @PutMapping("/{id}")
     public ResponseEntity<Comment> updateComment(@PathVariable Long id, @RequestBody Comment commentDetails) {

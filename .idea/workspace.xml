@@ -9,8 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="686044a9-a55a-4d6b-aef1-2fc68c1308b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/ITS/BTinside/Controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/ITS/BTinside/Controller/CommentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,25 +69,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.C:/Users/smhrd/Desktop/its/demo-repository/back.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Gradle 종속성 로드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.back [:BTinsideApplication.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.back [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.back.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;yeon&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;전역 라이브러리&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
-    &quot;애플리케이션.BTinsideApplication.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.C:/Users/smhrd/Desktop/its/demo-repository/back.executor": "Run",
+    "Gradle.Gradle 종속성 로드.executor": "Run",
+    "Gradle.back [:BTinsideApplication.main()].executor": "Debug",
+    "Gradle.back [dependencies].executor": "Run",
+    "Gradle.back.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "yeon",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "전역 라이브러리",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.customizations",
+    "애플리케이션.BTinsideApplication.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="ITS.BTinside.Repository" />
