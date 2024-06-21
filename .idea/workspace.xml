@@ -10,7 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="686044a9-a55a-4d6b-aef1-2fc68c1308b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/back/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/ITS/BTinside/Config/SwaggerConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
