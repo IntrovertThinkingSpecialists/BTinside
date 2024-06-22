@@ -1,0 +1,21 @@
+.techpage {
+    .tech-title {
+      color: #fff;
+      background-color: #343a40; // 어두운 색상
+      padding: 10px;
+      border-radius: 5px;
+    }
+  
+    .write-btn {
+      background-color: #343a40; // 어두운 색상
+      border-color: #343a40;
+      color: #fff;
+      margin-bottom: 20px;
+  
+      &:hover {
+        background-color: #23272b; // 어두운 색상
+        border-color: #23272b;
+      }
+    }
+  }
+  
