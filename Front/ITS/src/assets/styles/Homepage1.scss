@@ -1,0 +1,124 @@
+.homepage {
+    background-color: #f8f9fa;
+    padding: 20px;
+  
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #0d6efd;
+      }
+  
+      .actions {
+        display: flex;
+        gap: 10px;
+  
+        button {
+          border: none;
+          background: none;
+          font-size: 18px;
+          cursor: pointer;
+        }
+  
+        .login-btn {
+          color: #0d6efd;
+        }
+  
+        .notification-btn {
+          color: #ffc107;
+        }
+  
+        .search-btn {
+          color: #6c757d;
+        }
+      }
+    }
+  
+    .content {
+      display: flex;
+      margin-top: 20px;
+  
+      .main-content {
+        flex: 2;
+        margin-right: 20px;
+  
+        .highlight-cards {
+          display: flex;
+          gap: 20px;
+          margin-bottom: 20px;
+  
+          .card {
+            flex: 1;
+            img {
+              height: 150px;
+              object-fit: cover;
+            }
+          }
+        }
+  
+        .post-list {
+          .list-group-item {
+            margin-bottom: 10px;
+          }
+        }
+      }
+  
+      .sidebar {
+        flex: 1;
+        .card {
+          img {
+            height: 100px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  
+    // 추가된 스타일
+    .header {
+      background-color: #0f9d58; // 초록색
+      color: #fff;
+  
+      .logo {
+        color: #fff;
+      }
+  
+      .actions button {
+        color: #fff;
+      }
+    }
+  
+    .content {
+      .main-content {
+        .highlight-cards .card {
+          border: 1px solid #0f9d58;
+        }
+  
+        .post-list .list-group-item .card {
+          border: 1px solid #0f9d58;
+        }
+      }
+  
+      .sidebar .card {
+        border: 1px solid #0f9d58;
+      }
+    }
+  
+    .btn-primary {
+      background-color: #0f9d58;
+      border-color: #0f9d58;
+  
+      &:hover {
+        background-color: darken(#0f9d58, 10%);
+        border-color: darken(#0f9d58, 10%);
+      }
+    }
+  }
+  
