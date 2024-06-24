@@ -9,7 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="686044a9-a55a-4d6b-aef1-2fc68c1308b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/ITS/BTinside/Controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/ITS/BTinside/Controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/back/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/ITS/BTinside/Config/SwaggerConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +82,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "yeon",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "전역 라이브러리",
+    "last_opened_file_path": "C:/Users/smhrd/Desktop/its/demo-repository/back",
+    "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.customizations",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "애플리케이션.BTinsideApplication.executor": "Run"
   }
 }]]></component>
