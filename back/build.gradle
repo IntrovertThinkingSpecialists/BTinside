@@ -26,6 +26,16 @@ dependencies {
 
 	implementation 'io.springfox:springfox-boot-starter:3.0.0'
 	implementation 'javax.servlet:javax.servlet-api:4.0.1'
+	//openai-api
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.9'
+	//lombok
+	compileOnly 'org.projectlombok:lombok:1.18.32'
+	annotationProcessor 'org.projectlombok:lombok:1.18.32'
+	//Stripe java SDK
+	implementation 'com.stripe:stripe-java:20.110.0'
+	//paypal
+	implementation 'com.paypal.sdk:rest-api-sdk:1.14.0'
+
 
 
 //	logging.level.org.springframework=debug
