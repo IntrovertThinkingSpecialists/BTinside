@@ -3,6 +3,7 @@ package ITS.BTinside.Controller;
 import ITS.BTinside.Entity.Subscription;
 import ITS.BTinside.Service.PaymentService;
 import ITS.BTinside.Service.SubscriptionService;
+import com.paypal.base.rest.PayPalRESTException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,9 +15,9 @@ public class SubscriptionController {
 
     @Autowired
     private SubscriptionService subscriptionService;
+
     @Autowired
     private PaymentService paymentService;
-
 
     @PostMapping("/subscribe")
     public Subscription subscribeUser(@RequestBody Map<String, Object> payload) throws Exception {
@@ -25,9 +26,13 @@ public class SubscriptionController {
         String token = payload.get("token").toString();
         String email = payload.get("email").toString();
 
-        // 결제 처리
-        String customerId = paymentService.createCustomer(email, token);
-        paymentService.chargeCustomer(customerId, 1000); // 예제에서 1000 달러로 가정
+        // 결제 처리 (Stripe)
+//        String customerId = paymentService.createCustomer(email, token);
+//        paymentService.chargeCustomer(customerId, 1000); // 예제에서 1000 달러로 가정
+
+        // PayPal 결제 처리 (예시)
+         Payment payment = paymentService.createPaypalPayment(1000.0);
+         paymentService.executePaypalPayment(payment.getId(), "payer_id");
 
         return subscriptionService.subscribeUser(userId, subscriptionType);
     }
